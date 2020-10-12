@@ -5,9 +5,9 @@ Nginx docker image and configuration using the ISOC OSE (Internet Society - Open
 Protocols and good practices for security in web servers have been around for a pretty good time, but not always the system administrators have the knowledge or the time for studying these protocols and good practices. Aware of that, Internet Society has created the [Open Standards Everywhere](https://www.internetsociety.org/issues/open-standards-everywhere/) that consist of clear written tutorials for implementation in Web servers as Nginx or Apache.
 
 ## How to use
-The file `default.conf` is the example file with the proprer configuration for that site. Here you can change the server listen, address and let the other configurations as it's.
+The file `default.conf` is the example file with the proper configuration for that site. Here you can change the server listen, address and let the other configurations as it's.
 
-The docker image copy the `default.conf` example for the `default.conf`. You can change that also for not overwritten the default config.
+We'll copy the `default.conf` example for the `/etc/nginx/conf.d/default.conf` inside the docker image. For not overwriting the default conf file, **wich is also a good practice**, you can change the filename and the Dockerfile to write other filename, it'll work as well.
 
 ### Please just show me the commands
 
