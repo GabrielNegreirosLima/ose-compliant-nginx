@@ -5,4 +5,5 @@ services:
     build: ./
     ports:
       - "8089:80"
+      - "8090:443"
         
