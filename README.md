@@ -1,4 +1,4 @@
-# Nginx with Open Standards Everywhere
+# Nginx with Open Standards Everywhere Docker image
 Nginx docker image and configuration using the ISOC OSE (Internet Society - Open Standards Everywhere) tutorials.
 
 ## Important Notes
