@@ -30,8 +30,8 @@ docker-compose build
 docker-compose -d
 ```
 
-- Test it accessing `localhost:8089` for HTTP
-- Test it accessing `localhost:8090` for HTTPS
+- Test it accessing `http://mynginx.local` for IPv4
+- Test it accessing `http://[::1]` for IPv6
 
 ## For production
 If you want to use this for production web servers or reverse proxies, here we go with some suggestions:
