@@ -1,4 +1,4 @@
-# Nginx with Open Standards Everywhere Docker image
+# Nginx with Open Standards Everywhere Docker imag
 Nginx docker image and configuration using the ISOC OSE (Internet Society - Open Standards Everywhere) tutorials.
 
 ## Important Notes
@@ -17,7 +17,7 @@ We'll copy the `default.conf` example for the `/etc/nginx/conf.d/default.conf` i
 - Edit your hosts file (`/etc/hosts`), and add the following line: 
 ```
 127.0.0.1 mynginx.local
-127.0.0.1 ipv6.mynginx.local
+::1 ipv6.mynginx.local
 ```
 
 - Ok, for building (assuming your user is in the docker group):
